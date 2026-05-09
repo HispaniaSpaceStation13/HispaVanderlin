@@ -12,7 +12,8 @@
 	soundenv = 15
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)
 	ambush_types = list(
-				/turf/open/floor/grass)
+				/turf/open/floor/grass,
+				/turf/open/floor/snow) // HISPANIA NEEEDED
 
 	ambush_mobs = list(
 		new /datum/ambush_config/wolf_pack = 15,
@@ -44,6 +45,10 @@
 /area/outdoors/wilderness/outpost/salem
 	name = "salem outpost"
 	first_time_text = "Salem Outpost"
+
+/area/outdoors/wilderness/outpost/hispaniard // HISPANIA
+	name = "white tower outpost"
+	first_time_text = "White Tower Outpost"
 
 /area/indoors/wilderness
 	name = "indoors - wilderness"
