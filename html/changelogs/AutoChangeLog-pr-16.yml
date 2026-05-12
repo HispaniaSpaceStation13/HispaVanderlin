@@ -1,0 +1,5 @@
+author: "SagaStars"
+delete-after: True
+changes:
+  - qol: "Cambios agradables para el mapa"
+  - bugfix: "Posible fix al mapa de hispania"
